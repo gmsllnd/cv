@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charSet="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grégoire Sailland</title>
+    <!-- Fontawesome css cdn link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossOrigin="anonymous" />
+    <!-- Tailwind css cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Customizing your theme -->
+    <script src="/tailwind.js"></script>
+
+    <!-- Vue js cdn link -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- external javascript file -->
+    <script defer src="/vue.js"></script>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body class="">
+    <div class=" mt-10" id="app">
+        <div id="root">
+            <div id="resume">
+                <header id="header" class="flex justify-between gap-4">
+                    <div class="basics">
+                        <h1 class="name">Grégoire Sailland</h1>
+                        <h2 class="label">Full-Stack Web Developer</h2>
+                        <span class="location"><span class="address">Rue de la Tambourine, </span><span class="postalCode">1227 </span><span class="city">Carouge, </span><span class="region">Geneva </span> <span class="countryCode">CH</span></span>
+                        <div id="contact flex gap-4 mt-10">
+                            <div class="email flex gap-1 items-baseline"><span class="far fa-envelope"></span><a class="hide-href-print" href="mailto:gmsailland@gmail.com"> gmsailland@gmail.com</a></div>
+                            <div class="phone flex gap-1 items-baseline"><span class="fas fa-mobile-alt"></span><a class="hide-href-print" href="tel:{{phone}}"> +41 76 268 49 93</a></div>
+                        </div>
+                        <div id="socials">
+                            <div class="item flex gap-1 items-baseline">
+                                <span class="fab fa-linkedin linkedin social"></span><a target="_blank" href="https://linkedin.com/in/gregoire-sailland" rel="noreferrer">gregoire-sailland</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/gregoiresailland.png" alt="Grégoire Sailland" class="profile-picture size-40
+">
+                    </div>
+                </header>
+                <section class="section">
+                    <section class="main-summary bg-[#f1f8ff]">
+                        <div>With over 10 years of experience in web development, I excel in transforming complex problems into effective solutions. My dynamic attitude and proactive approach have allowed me to thrive in various technical environments. I am eager to contribute to innovative projects, leveraging my skills in programming, project management, and user experience optimization. My ability to handle multiple projects, solve complex issues, and adapt to new challenges makes me a valuable asset to any team.</div>
+                    </section>
+                </section>
+                <section class="section">
+                    <header>
+                        <h2 class="section-title">Skills</h2>
+                    </header>
+                    <section id="skills">
+                        <div class="item">
+                            <h3 class="name">Programming Languages</h3>
+                            <ul class="keywords">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript/TS</li>
+                                <li>PHP</li>
+                                <li>SQL/NoSQL</li>
+                                <li>Python</li>
+                                <li>JAVA</li>
+                                <li>OpenGL/ES</li>
+                                <li>MD</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <h3 class="name">Frameworks</h3>
+                            <ul class="keywords">
+                                <li>WordPress</li>
+                                <li>Vue.js</li>
+                                <li>Laravel</li>
+                                <li>Nuxt.js</li>
+                                <li>Flask</li>
+                                <li>Django</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <h3 class="name">Tools</h3>
+                            <ul class="keywords">
+                                <li>VS Code</li>
+                                <li>Git</li>
+                                <li>Postman</li>
+                                <li>Android Studio</li>
+                                <li>Panda</li>
+                                <li>Statistical Analysis System</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <h3 class="name">Additional Skills</h3>
+                            <ul class="keywords">
+                                <li>Team collaboration</li>
+                                <li>Continuous improvement</li>
+                                <li>Validation protocol development</li>
+                                <li>Documentation maintenance</li>
+                                <li>Project management</li>
+                                <li>Server and database management</li>
+                                <li>Data-driven web app development</li>
+                                <li>Simultaneous project handling</li>
+                                <li>Client satisfaction-focused development</li>
+                                <li>Dynamic and proactive problem-solving</li>
+                                <li>Pedagogical and communication skills</li>
+                                <li>Managing computerized systems</li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+                <section class="section">
+                    <header>
+                        <h2 class="section-title">Work Experience <span class="item-count">(3)</span></h2>
+                    </header>
+                    <section id="work">
+                        <section class="work-item"><label for="work-item-0"></label>
+                            <header class="clear">
+                                <div class="date"><span class="startDate">Jan 2018 </span><span class="endDate">- Jan 2024</span></div>
+                                <div class="position">Web Developer</div>
+                                <div class="company">Frederique Constant SA</div>
+                            </header><span class="fas fa-map-marker-alt"></span><span class="location"> Geneva</span><span class="url"><span class="fas fa-external-link-alt"></span><a target="_blank" href="https://frederiqueconstant.com" rel="noreferrer"> https://frederiqueconstant.com</a></span>
+                            <div class="item" id="work-item">
+                                <div class="summary">Developed web applications and managed e-commerce websites for a renowned international watchmaking company.</div>
+                                <ul class="highlights">
+                                    <li>Synchronized product catalog and sales data with the ERP system, streamlining internal processes.</li>
+                                    <li>Developed an automated system for resellers with Google API-assisted form autocompletion, reducing manual errors by 30%.</li>
+                                    <li>Created a sales planning application spanning 13 months, implementing market-specific modification rules, leading to a 20% increase in efficiency.</li>
+                                    <li>Improved existing solutions and developed new ones to optimize the user experience for customers and partners.</li>
+                                    <li>Achieved significant business results, including a 15% increase in sales, enhanced customer loyalty, and expansion of the partner network.</li>
+                                    <li>Recreated outdated enterprise applications, improving their data structure and user interface.</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="work-item"><label for="work-item-1"></label>
+                            <header class="clear">
+                                <div class="date"><span class="startDate">Jan 2017 </span><span class="endDate">- Dec 2017</span></div>
+                                <div class="position">WordPress Developer</div>
+                                <div class="company">espace.digital</div>
+                            </header><span class="fas fa-map-marker-alt"></span><span class="location"> Geneva</span>
+                            <div class="item" id="work-item">
+                                <div class="summary">Developed WordPress websites and custom themes, delivering user-friendly solutions tailored to client needs.</div>
+                            </div>
+                        </section>
+                        <section class="work-item"><label for="work-item-2"></label>
+                            <header class="clear">
+                                <div class="date"><span class="startDate">Jan 2014 </span><span class="endDate">- Dec 2016</span></div>
+                                <div class="position">Web Administrator</div>
+                                <div class="company">Freelance</div>
+                            </header><span class="fas fa-map-marker-alt"></span><span class="location"> Geneva</span>
+                            <div class="item" id="work-item">
+                                <div class="summary">Managed websites and provided web administration services for a diverse range of clients.</div>
+                                <ul class="highlights">
+                                    <li>Handled full project life cycles from design to final delivery.</li>
+                                    <li>Managed teams, coordinated development efforts, and ensured successful project outcomes.</li>
+                                    <li>Delivered customized solutions that exceeded client expectations, ensuring long-term client satisfaction and repeat business.</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+                <section class="section">
+                    <header>
+                        <h2 class="section-title">Education <span class="item-count">(2)</span></h2>
+                    </header>
+                    <section id="education">
+                        <section class="education-item">
+                            <header class="clear">
+                                <div class="date"><span class="startDate">2007</span><span class="endDate"> - 2009</span></div>
+                                <div class="header-left">
+                                    <div class="studyType">Design</div>
+                                    <div class="area"> Applied Arts</div>
+                                    <div class="institution">CFP Arts</div>
+                                </div>
+                            </header>
+                            <div class="item"></div>
+                        </section>
+                        <section class="education-item">
+                            <header class="clear">
+                                <div class="date"><span class="startDate">1999</span><span class="endDate"> - 2003</span></div>
+                                <div class="header-left">
+                                    <div class="studyType">Swiss Maturity</div>
+                                    <div class="area"> Economics, Law, and Accounting</div>
+                                    <div class="institution">École Moser</div>
+                                </div>
+                            </header>
+                            <div class="item"></div>
+                        </section>
+                    </section>
+                </section>
+                <section class="section">
+                    <header>
+                        <h2 class="section-title">Languages</h2>
+                    </header>
+                    <section id="languages">
+                        <div class="display">
+                            <h3 class="language">French</h3>
+                            <div class="item">
+                                <div class="level fluency 6"><em>6</em>
+                                    <div class="bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="display">
+                            <h3 class="language">English</h3>
+                            <div class="item">
+                                <div class="level fluency 4"><em>4</em>
+                                    <div class="bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="section">
+                    <header>
+                        <h2 class="section-title">Interests</h2>
+                    </header>
+                    <section id="interests">
+                        <div class="item">
+                            <h3 class="name">Refactoring (software reengineering)</h3>
+                        </div>
+                        <div class="item">
+                            <h3 class="name">Cybersecurity &amp; AI</h3>
+                        </div>
+                        <div class="item">
+                            <h3 class="name">Tech monitoring</h3>
+                        </div>
+                        <div class="item">
+                            <h3 class="name">Digital arts</h3>
+                        </div>
+                    </section>
+                </section>
+                <section class="section">
+                    <header>
+                        <h2 class="section-title">References</h2>
+                    </header>
+                    <section id="references">
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

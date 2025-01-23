@@ -1,0 +1,183 @@
+{
+    "basics": {
+        "name": "Grégoire Sailland",
+        "label": "Full-Stack Web Developer",
+        "email": "gmsailland@gmail.com",
+        "phone": "+41 76 268 49 93",
+        "location": {
+            "address": "Carouge, Geneva",
+            "city": "Geneva",
+            "postalCode": "1227",
+            "countryCode": "CH",
+            "region": "Geneva"
+        },
+        "summary": "With over 10 years of experience in web development, I excel in transforming complex problems into effective solutions. My dynamic attitude and proactive approach have allowed me to thrive in various technical environments. I am eager to contribute to innovative projects, leveraging my skills in programming, project management, and user experience optimization. My ability to handle multiple projects, solve complex issues, and adapt to new challenges makes me a valuable asset to any team.",
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "gregoire-sailland",
+                "url": "https://linkedin.com/in/gregoire-sailland"
+            }
+        ],
+        "image": ""
+    },
+    "work": [
+        {
+            "name": "Frederique Constant SA",
+            "position": "Web Developer",
+            "location": "Geneva",
+            "startDate": "2018-01-01",
+            "endDate": "2024-01-01",
+            "summary": "Developed web applications and managed e-commerce websites for a renowned international watchmaking company.",
+            "highlights": [
+                "Synchronized product catalog and sales data with the ERP system, streamlining internal processes.",
+                "Developed an automated system for resellers with Google API-assisted form autocompletion, reducing manual errors by 30%.",
+                "Created a sales planning application spanning 13 months, implementing market-specific modification rules, leading to a 20% increase in efficiency.",
+                "Improved existing solutions and developed new ones to optimize the user experience for customers and partners.",
+                "Achieved significant business results, including a 15% increase in sales, enhanced customer loyalty, and expansion of the partner network.",
+                "Recreated outdated enterprise applications, improving their data structure and user interface."
+            ],
+            "description": "Description",
+            "url": "https://frederiqueconstant.com"
+        },
+        {
+            "name": "espace.digital",
+            "position": "WordPress Developer",
+            "location": "Geneva",
+            "startDate": "2017-01-01",
+            "endDate": "2017-12-31",
+            "summary": "Developed WordPress websites and custom themes, delivering user-friendly solutions tailored to client needs."
+        },
+        {
+            "name": "Freelance",
+            "position": "Web Administrator",
+            "location": "Geneva",
+            "startDate": "2014-01-01",
+            "endDate": "2016-12-31",
+            "summary": "Managed websites and provided web administration services for a diverse range of clients.",
+            "highlights": [
+                "Handled full project life cycles from design to final delivery.",
+                "Managed teams, coordinated development efforts, and ensured successful project outcomes.",
+                "Delivered customized solutions that exceeded client expectations, ensuring long-term client satisfaction and repeat business."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "CFP Arts",
+            "area": "Applied Arts",
+            "studyType": "Design",
+            "startDate": "2007-01-01",
+            "endDate": "2009-12-31",
+            "location": "Geneva"
+        },
+        {
+            "institution": "École Moser",
+            "area": "Economics, Law, and Accounting",
+            "studyType": "Swiss Maturity",
+            "startDate": "1999-01-01",
+            "endDate": "2003-12-31",
+            "location": "Geneva"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "level": "",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript/TS",
+                "PHP",
+                "SQL/NoSQL",
+                "Python",
+                "JAVA",
+                "OpenGL/ES",
+                "MD"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "level": "",
+            "keywords": [
+                "WordPress",
+                "Vue.js",
+                "Laravel",
+                "Nuxt.js",
+                "Flask",
+                "Django"
+            ]
+        },
+        {
+            "name": "Tools",
+            "level": "",
+            "keywords": [
+                "VS Code",
+                "Git",
+                "Postman",
+                "Android Studio",
+                "Panda",
+                "Statistical Analysis System"
+            ]
+        },
+        {
+            "name": "Additional Skills",
+            "level": "",
+            "keywords": [
+                "Team collaboration",
+                "Continuous improvement",
+                "Validation protocol development",
+                "Documentation maintenance",
+                "Project management",
+                "Server and database management",
+                "Data-driven web app development",
+                "Simultaneous project handling",
+                "Client satisfaction-focused development",
+                "Dynamic and proactive problem-solving",
+                "Pedagogical and communication skills",
+                "Managing computerized systems"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "fluency": "6"
+        },
+        {
+            "language": "English",
+            "fluency": "4"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Refactoring (software reengineering)"
+        },
+        {
+            "name": "Cybersecurity & AI"
+        },
+        {
+            "name": "Tech monitoring"
+        },
+        {
+            "name": "Digital arts"
+        }
+    ],
+    "references": [
+        {
+            "name": "Jonas Dumas",
+            "role": "Consultant",
+            "contact": "Available upon request"
+        },
+        {
+            "name": "Yoann Talagrand",
+            "role": "Web Strategy Manager",
+            "contact": "Available upon request"
+        },
+        {
+            "name": "Léa Pourchet",
+            "role": "Sales Manager",
+            "contact": "Available upon request"
+        }
+    ]
+}
